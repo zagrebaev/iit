@@ -108,7 +108,7 @@ int main()
 		cout << "Лучник:\n" << "dis" << dis << endl;
 		arch->chooseAction(dis, arch, pal);
 		dis = pal->giveCoord() - arch->giveCoord();
-		cout << "Паладин:\n" << "dis" << dis << endl;
+		cout << "Паладин:\n" << "Дистанция до цели: " << dis << endl;
 		pal->chooseAction(dis, pal, arch);
 		cout << endl << endl;
 		
